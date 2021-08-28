@@ -21,7 +21,7 @@ It is very important for podcaster publishers that they have accurate statistics
 
 **Please ensure you set clear and identifiable HTTP user agents** every time your app, or associated APIs, connects to a third-party service to download the RSS feed or audio. 
 
-There are [best practices for user agents](https://developers.whatismybrowser.com/learn/user-agent-best-practices/) detailed elsewhere on the internet. A good user agent looks like:
+There are [best practices for user agents](https://developers.whatismybrowser.com/learn/user-agent-best-practices/) detailed elsewhere on the internet. A good user agent for a podcast app looks like:
 
 `MyPodcastApp/1.2 iPhone/13 +http://mypodcastapp.example.com`
 
