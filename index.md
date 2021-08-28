@@ -18,7 +18,7 @@ This website is guided by **independence, pragmatism and minimalism**. Minimum f
 
 ## For app developers
 
-### User agents
+### Set a clear user agent throughout
 
 It is very important for podcaster publishers that they have accurate statistics about podcast consumption. Stats help publishers market their show or monetise it; in some cases, knowing that someone is listening is the difference between doing a podcast and giving up. Making it clear what consumption comes from your app will help publishers know where their audience discovered them, and may result in publishers advertising in your app or service, or promoting it more.
 
@@ -44,7 +44,7 @@ If you run a central RSS crawler, please ensure this is identified. Consider rep
 
 There are some circumstances where you are unable to change the user agent: whether using the `AppleCoreMedia` library or on browser-based services. In these circumstances, consider adding a clear player identification slug in an additional value to the audio URL request, in the form: `_from=com.example.mypodcastapp` - a consistent reverse-URI identifier for your app. Some podcast analytics companies may use this to identify your app.
 
-### The audio URL
+### Don't remove elements from the audio URL
 
 **Please ensure you do not change or remove any query strings** that have been added to the audio URL: the audio may not play without them.
 
@@ -56,7 +56,7 @@ It's tempting to ask that a podcast app considers implementing everything; but t
 
 Accordingly, this list of best practices is a specific guide to the bare minimum requirements that podcast publishers expect. Your podcast app will benefit from implementing much more than these items.
 
-#### itunes:type
+#### Get the order right, and respect serial podcasts
 
 Ensure that your app supports the `itunes:type` field. Serial podcasts, where a story slowly unfolds over a period of shows, are a growing part of podcasting, and the order of these shows is important. (Nobody wants to find out whodunnit by mistake!)
 
@@ -71,9 +71,9 @@ Consider showing a trailer, if one exists, prominently at the top of any episode
 * [Information from Podbean about itunes:type](https://help.podbean.com/support/solutions/articles/25000010756-how-to-set-ios11-itunes-feed-tags-in-your-podcast)
 * Evo Terra's [podcast app manifesto](https://podcastpontifications.com/helpful-info/podcast-app-manifesto#:~:text=respect%20rss%20feeds%20tagged%20as%20serial) about serial podcasts
 
-#### descriptions
+#### Display descriptions properly in your app
 
-Podcasters often monetise their shows by linking to websites. It is important that episode descriptions are displayed in full, with links intact. In episode descriptions, ensure that your app:
+Podcasters often monetise their shows by linking to websites. It is important that episode descriptions are displayed in full, with links intact. In show and episode descriptions, ensure that your app:
 1. Displays any naked URLs as clickable links
 2. Supports `<A>` anchor links
 3. Support rudimentary `<P>` and `<BR>` formatting tags where HTML is seen
