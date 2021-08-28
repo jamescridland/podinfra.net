@@ -1,8 +1,8 @@
 ---
-title: Best practice for podcast
+title: Best practice for everyone in podcasting
 ---
 
-## A best-practice website for podcast app developers, podcast hosting companies, and podcasters
+## An open ecosystem with best practice
 
 A work in progress, this website is intended to be a non-opinionated guide to being the best citizen in the open podcast ecosystem. It is a Github website, open for anyone to edit, add to, or debate.
 
