@@ -4,20 +4,21 @@ title: Best practice for podcast
 
 ## A best-practice website for podcast app developers, podcast hosting companies, and podcasters
 
-This is most certainly a work in progress, but it is intended to be a non-opinionated guide to being the best citizen in the open podcast ecosystem. It is a Github website, open for anyone to edit, add to, or debate.
+A work in progress, this website is intended to be a non-opinionated guide to being the best citizen in the open podcast ecosystem. It is a Github website, open for anyone to edit, add to, or debate.
 
 ### Language used here
 
-"Ensure" - this is the minimum that the industry expects. While you won't be blocked for not doing this (in most cases), you'll show respect for the ecosystem if you complete these bare minimum requirements.
+This website is guided by **independence, pragmatism and minimalism**. Minimum features should be simple to implement and require no specific skills or libraries.
 
-"Consider" - it would be great if you can also do this. Not every part of the ecosystem relies on this, but advanced podcasters and hosting companies will make use of additional features if you can.
+"Ensure" - this is **the minimum that the industry expects.** While you won't be blocked for not doing this (in most cases), you'll show respect for the ecosystem if you complete these bare minimum requirements.
 
+"Consider" - it **would be great if you can also do this.** Not every part of the ecosystem relies on this, but advanced podcasters and hosting companies will make use of additional features if you can implement them.
 
 ## For app developers
 
 ### User agents
 
-It is very important for podcaster publishers that they have accurate statistics about podcast consumption. Stats help publishers market their show or monetise it; in some cases, knowing that someone is listening is the difference between doing a podcast and giving up. Making it clear what consumption came from your app will help publishers know where their audience discovered them, and may result in publishers advertising in your app or service.
+It is very important for podcaster publishers that they have accurate statistics about podcast consumption. Stats help publishers market their show or monetise it; in some cases, knowing that someone is listening is the difference between doing a podcast and giving up. Making it clear what consumption comes from your app will help publishers know where their audience discovered them, and may result in publishers advertising in your app or service, or promoting it more.
 
 **Please ensure you set clear and identifiable HTTP user agents** every time your app, or associated APIs, connects to a third-party service to download the RSS feed or audio. 
 
