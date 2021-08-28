@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+## A best-practice website for podcast app developers, podcast hosting companies, and podcasters
 
-You can use the [editor on GitHub](https://github.com/jamescridland/podinfra.net/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This is most certainly a work in progress, but it is intended to be a non-opinionated guide to being the best citizen in the open podcast ecosystem. It is a Github website, open for anyone to edit, add to, or debate.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Language used here
 
-### Markdown
+"Ensure" - this is the minimum that the industry expects. While you won't be blocked for not doing this (in most cases), you'll show respect for the ecosystem if you complete these bare minimum requirements.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+"Consider" - it would be great if you can also do this. Not every part of the ecosystem relies on this, but advanced podcasters and hosting companies will.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## For app developers
 
-- Bulleted
-- List
+### User agents
 
-1. Numbered
-2. List
+It is very important for podcaster publishers that they have accurate statistics about podcast consumption. Stats help publishers market their show or monetise it; in some cases, knowing that someone is listening is the difference between doing a podcast and giving up. Making it clear what consumption came from your app will help publishers know where their audience discovered them, and may result in publishers advertising in your app or service.
 
-**Bold** and _Italic_ and `Code` text
+**Please ensure you set clear and identifiable HTTP user agents** every time your app, or associated APIs, connects to a third-party service to download the RSS feed or audio. 
 
-[Link](url) and ![Image](src)
-```
+There are [best practices for user agents](https://developers.whatismybrowser.com/learn/user-agent-best-practices/) detailed elsewhere on the internet. A good user agent looks like:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+`MyPodcastApp/1.2 iPhone/13 +http://mypodcastapp.example.com`
 
-### Jekyll Themes
+It should include:
+* an obvious name of your podcast app, and its version number
+* some form of identification of OS and hardware
+* a URL for more information about your app
+* no personal information or overly-detailed device information that could be used to identify your user
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jamescridland/podinfra.net/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+If you run a central RSS crawler, please ensure this is identified. Consider reporting back subscriber counts, like [this example from Overcast](https://overcast.fm/podcasterinfo):
 
-### Support or Contact
+`Overcast/1.0 Podcast Sync (123 subscribers; feed-id=456789; +http://overcast.fm/`
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+*Tip:* Your app may have different methods of downloading audio - from an auto-download that your app performs on a schedule, to a listener-initiated download ("a stream") that grabs audio for someone to listen to. Ensure that each of these methods has a correct user-agent.
+
+*Tip:* You can hear your audio user-agent being read back to you in season 1, episode 1, of the PodClock podcast app testing feed at https://podnews.net/clock-rss which is also in all major podcast directories. This episode will also display your RSS crawler's useragent in the item description.
+
+There are some circumstances where you are unable to change the user agent: whether using the `AppleCoreMedia` library or on browser-based services. In these circumstances, consider adding a clear player identification slug in an additional value to the audio URL request, in the form: `_from=com.example.mypodcastapp` - a consistent reverse-URI identifier for your app. Some podcast analytics companies may use this to identify your app.
+
+### The audio URL
+
+Please ensure you do not change or remove any query strings that have been added to the audio URL: the audio may not play without them.
+
+
+
+
