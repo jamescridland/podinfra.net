@@ -10,7 +10,7 @@ This is most certainly a work in progress, but it is intended to be a non-opinio
 
 "Ensure" - this is the minimum that the industry expects. While you won't be blocked for not doing this (in most cases), you'll show respect for the ecosystem if you complete these bare minimum requirements.
 
-"Consider" - it would be great if you can also do this. Not every part of the ecosystem relies on this, but advanced podcasters and hosting companies will.
+"Consider" - it would be great if you can also do this. Not every part of the ecosystem relies on this, but advanced podcasters and hosting companies will make use of additional features if you can.
 
 
 ## For app developers
