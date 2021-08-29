@@ -16,9 +16,7 @@ This website is guided by **independence, pragmatism and minimalism**. Minimum f
 
 "Consider" - it **would be great if you can also do this.** Not every part of the ecosystem relies on this, but advanced podcasters and hosting companies will make use of additional features if you can implement them.
 
-## For app developers
-
-* [Set a clear user agent throughout your app](/app-developers/user-agents.html)
+{% include_relative app-developers/index.md %}
 
 ### Don't confuse podcasters with your app
 
