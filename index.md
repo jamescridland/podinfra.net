@@ -24,7 +24,7 @@ It's tempting to ask that a podcast app considers implementing everything; but t
 
 Accordingly, this list of best practices is a specific guide to the bare minimum requirements that podcast publishers expect. Your podcast app will benefit from implementing much more than these items.
 
-(list to go here)
+{% include_relative app-developers/section-index.md %}
 
 ### For podcast hosts
 
