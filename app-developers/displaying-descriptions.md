@@ -1,5 +1,5 @@
 ---
-title:Display descriptions properly in your app
+title: Display descriptions properly in your app
 ---
 
 ## Display descriptions properly in your app
