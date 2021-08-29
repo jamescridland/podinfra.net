@@ -16,7 +16,8 @@ This website is guided by **independence, pragmatism and minimalism**. Minimum f
 
 "Consider" - it **would be great if you can also do this.** Not every part of the ecosystem relies on this, but advanced podcasters and hosting companies will make use of additional features if you can implement them.
 
-{% include_relative app-developers/index.md %}
+## For podcast app developers
+{% include_relative app-developers/section-index.md %}
 
 ### Don't confuse podcasters with your app
 
