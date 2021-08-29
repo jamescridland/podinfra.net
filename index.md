@@ -6,8 +6,6 @@ title: Best practice for everyone in podcasting
 
 A work in progress, this website is intended to be a non-opinionated guide to being the best citizen in the open podcast ecosystem. It is a Github website, open for anyone to edit, add to, or debate.
 
-Give feedback by either [opening an 'issue'](https://github.com/jamescridland/podinfra.net/issues) or by submitting a pull request with an edit.
-
 ### Language used here
 
 This website is guided by **independence, pragmatism and minimalism**. Minimum features should be simple to implement and require no specific skills or libraries.
@@ -26,4 +24,4 @@ This website is guided by **independence, pragmatism and minimalism**. Minimum f
 (to come)
 
 ### Feedback
-I'm hoping this will be a community effort. You can give feedback by either [opening an 'issue'](https://github.com/jamescridland/podinfra.net/issues) or by submitting a pull request with an edit.
+You can give feedback by either [opening an 'issue'](https://github.com/jamescridland/podinfra.net/issues) or by submitting a pull request with an edit.
