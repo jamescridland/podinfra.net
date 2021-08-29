@@ -6,7 +6,7 @@ title: Best practice for everyone in podcasting
 
 A work in progress, this website is intended to be a non-opinionated guide to being the best citizen in the open podcast ecosystem. It is a Github website, open for anyone to edit, add to, or debate.
 
-Give feedback by either [opening an 'issue'](https://github.com/jamescridland/podinfra.net/issues) or by submitting a pull request with an edit; this site at the moment is a single-page, but in time will be split into different sections.
+Give feedback by either [opening an 'issue'](https://github.com/jamescridland/podinfra.net/issues) or by submitting a pull request with an edit.
 
 ### Language used here
 
@@ -16,7 +16,7 @@ This website is guided by **independence, pragmatism and minimalism**. Minimum f
 
 "Consider" - it **would be great if you can also do this.** Not every part of the ecosystem relies on this, but advanced podcasters and hosting companies will make use of additional features if you can implement them.
 
-## For podcast app developers
+### For podcast app developers
 
 There are many elements to a podcast RSS feed, especially when you consider the podcast namespace extensions.
 
@@ -25,3 +25,15 @@ It's tempting to ask that a podcast app considers implementing everything; but t
 Accordingly, this list of best practices is a specific guide to the bare minimum requirements that podcast publishers expect. Your podcast app will benefit from implementing much more than these items.
 
 {% include_relative app-developers/section-index.md %}
+
+### For podcast hosts
+
+(to come)
+
+### For podcast publishers
+
+(to come)
+
+### Feedback
+
+I'm hoping this will be a community effort. You can give feedback by either [opening an 'issue'](https://github.com/jamescridland/podinfra.net/issues) or by submitting a pull request with an edit.
