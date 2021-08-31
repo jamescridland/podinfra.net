@@ -1,5 +1,6 @@
 ---
 title: Get the episode order right, respecting serial podcasts
+authors: jamescridland,evoterra
 ---
 
 ## Get the order right, and respect serial podcasts
@@ -10,11 +11,13 @@ If you see `<itunes:type>serial</itunes:type>` in the RSS feed, ensure that your
 1. Ensure you use the `<itunes:episode>` tag to order the episodes so that the first episode is visible at the top of the list.
 2. If a show has more than one **season**, ensure you use the the `<itunes:season>` tag to show the newest season to a user first. So if a podcast is up to season five, a new listener should initially see Season 5.
 
+<i class="far fa-lightbulb"></i> Make it easy to navigate subsequent seasons. Some serial podcasts, like fiction podcasts, are designed to be listened to in season order, as well as the correct order within a season.
+
 Consider showing a trailer, if one exists, prominently at the top of any episode list. Consider hiding this trailer once a user has listened to it.
 
-<i class="far fa-lightbulb"></i>  The PodClock podcast app testing feed has two seasons. Season one contains a number of esoteric tests; season two contains one episode with a 'clock' download timer. 
+<i class="far fa-lightbulb"></i> The PodClock podcast app testing feed has two seasons. Season one contains a number of esoteric tests; season two contains one episode with a 'clock' download timer. 
 
-<i class="far fa-lightbulb"></i>  Tip: RSS feeds are usually ordered in date order, with the newest episode first: but apps shouldn't rely on the order of the RSS feed for display purposes. If season and episode numbers are being used, use those instead to order your episodes.
+<i class="far fa-lightbulb"></i> RSS feeds are usually ordered in date order, with the newest episode first: but apps shouldn't rely on the order of the RSS feed for display purposes. If season and episode numbers are being used, use those instead to order your episodes.
   
 ### <i class="fas fa-book-open"></i> Further reading
 
