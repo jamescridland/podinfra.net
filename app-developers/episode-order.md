@@ -1,6 +1,6 @@
 ---
 title: Get the episode order right, respecting serial podcasts
-authors: jamescridland evoterra
+authors: [jamescridland,evoterra]
 ---
 
 ## Get the order right, and respect serial podcasts
