@@ -41,11 +41,7 @@
          
       {% for pageauthor in page.authors %}
       Author: {{ pageauthor }}
-        {% for author in site.data.authors %}
-          {% if author.id == pageauthor %}
-            {{ author.name }}
-          {% endif %}
-        (% endfor %}
+
       {% endfor %}
     </div>
 
