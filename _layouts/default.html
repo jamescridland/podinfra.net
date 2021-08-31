@@ -38,7 +38,9 @@
       <section id="main_content" class="inner">
         {{ content }}
         
-        <P>Page authors: {{ page.authors | array_to_sentence_string }}</P>
+        <P>Page authors: 
+        {{ page.authors | array_to_sentence_string }}
+        </P>
       </section>
     </div>
 
