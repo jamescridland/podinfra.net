@@ -38,6 +38,14 @@
       <section id="main_content" class="inner">
         {{ content }}
       </section>
+      
+      {% for author in site.authors %}
+      <p>Site: {{ author.name }} - {{ author.id }}</h2>
+      {% endfor %}
+    
+      {% for author in page.authors %}
+      <p>Page: {{ author }}</h2>
+      {% endfor %}
     </div>
 
     <!-- FOOTER  -->
