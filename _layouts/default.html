@@ -40,11 +40,7 @@
       </section>
          
       {% for pageauthor in page.authors %}
-        {% for author in site.data.authors %}
-          {% if author.id == pageauthor %}
-            {{author.name}}
-          {% endif %}
-        {% endfor %}
+      {{ site.data.authors | where:"id",pageauthor }}
       {% endfor %}
     </div>
 
