@@ -12,9 +12,11 @@ If you see `<itunes:type>serial</itunes:type>` in the RSS feed, ensure that your
 
 Consider showing a trailer, if one exists, prominently at the top of any episode list. Consider hiding this trailer once a user has listened to it.
 
-*Tip:* The PodClock podcast app testing feed has two seasons. Season one contains a number of esoteric tests; season two contains one episode with a 'clock' download timer. 
+<i class="far fa-lightbulb"></i>  The PodClock podcast app testing feed has two seasons. Season one contains a number of esoteric tests; season two contains one episode with a 'clock' download timer. 
 
-*Tip:* Tip: RSS feeds are usually ordered in date order, with the newest episode first: but apps shouldn't rely on the order of the RSS feed for display purposes. If season and episode numbers are being used, use those instead to order your episodes.
+<i class="far fa-lightbulb"></i>  Tip: RSS feeds are usually ordered in date order, with the newest episode first: but apps shouldn't rely on the order of the RSS feed for display purposes. If season and episode numbers are being used, use those instead to order your episodes.
   
+### <i class="fas fa-book-open"></i> Further reading
+
 * [Information from Podbean about itunes:type](https://help.podbean.com/support/solutions/articles/25000010756-how-to-set-ios11-itunes-feed-tags-in-your-podcast)
 * Evo Terra's [podcast app manifesto](https://podcastpontifications.com/helpful-info/podcast-app-manifesto#:~:text=respect%20rss%20feeds%20tagged%20as%20serial) about serial podcasts
