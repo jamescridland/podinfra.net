@@ -38,13 +38,13 @@
       <section id="main_content" class="inner">
         {{ content }}
       </section>
-      
-      {% for author in site.data.authors %}
-      <p>Site: {{ author.name }} - {{ author.id }}</h2>
-      {% endfor %}
-    
-      {% for author in page.authors %}
-      <p>Page: {{ author }}</h2>
+         
+      {% for pageauthor in page.authors %}
+        {% for author in site.data.authors %}
+          {% if author.id == pageauthor.id %}
+            {{author.name}}
+          {% endif %}
+        {% endfor %}
       {% endfor %}
     </div>
 
