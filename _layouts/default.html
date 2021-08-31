@@ -37,16 +37,9 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         {{ content }}
+        
+        <P>Page authors: {{ page.authors | array_to_sentence_string }}</P>
       </section>
-         
-      {% for pageauthor in page.authors %}
-      Page author: {{ pageauthor }}
-        {% for author in site.data.authors %}
-          {% if author.id == pageauthor %}
-            {{ author.name }}
-          {% endif %}
-        (% endfor %}
-      {% endfor %}
     </div>
 
     <!-- FOOTER  -->
