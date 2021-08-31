@@ -39,7 +39,11 @@
         {{ content }}
         
         <P>Page authors: 
-        {{ page.authors | array_to_sentence_string }}
+          
+      {% for pageauthor in page.authors %}
+      {{ pageauthor }}
+      {% endfor %}
+          
         </P>
       </section>
     </div>
