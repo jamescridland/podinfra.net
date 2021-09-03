@@ -51,9 +51,7 @@
         <P>Site authors:
           
        {% for author in site.data.authors %}
-       <a href="https://github.com/{{ author.id }}">
-       {{ author.name }}
-       </a>
+       <a href="https://github.com/{{ author.id }}">{{ author.name }}</a>
        {% endfor %}   
           
         </P>
