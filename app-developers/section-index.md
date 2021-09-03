@@ -2,3 +2,4 @@
 * [Display descriptions correctly](/app-developers/displaying-descriptions.html)
 * [Display episodes in the correct order](/app-developers/episode-order.html)
 * [Don't mess with the audio files](/app-developers/audio-files.html)
+* [Identify your RSS scrapers, and get new episodes promptly](/app-developers/rss-scrapers.html)
