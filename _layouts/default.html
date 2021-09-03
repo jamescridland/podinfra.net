@@ -46,6 +46,15 @@
       {% for pageauthor in page.authors %}
       {{ pageauthor }}
       {% endfor %}
+        </P>
+        
+        <P>Site authors:
+          
+       {% for author in site.data.authors %}
+       <a href="https://github.com/{{ author.id }}">
+       {{ author.name }}
+       </a>
+       {% endfor %}   
           
         </P>
       </section>
