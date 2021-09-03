@@ -1,8 +1,6 @@
 ---
 title: Set a clear user-agent throughout your app
 authors: jamescridland
-sectname: App Developers
-sectslug: app-developers
 ---
 
 ## Set a clear user-agent throughout your app
