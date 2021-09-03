@@ -1,5 +1,6 @@
 ---
 title: Best practice for everyone in podcasting
+authors: jamescridland
 ---
 
 ## An open ecosystem with best practice
