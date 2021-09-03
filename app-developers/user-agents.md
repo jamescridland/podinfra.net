@@ -18,10 +18,6 @@ It should include:
 * a URL for more information about your app
 * no personal information or overly-detailed device information that could be used to identify your user
 
-If you run a central RSS crawler, please ensure this is identified. Consider reporting back subscriber counts, like [this example from Overcast](https://overcast.fm/podcasterinfo):
-
-`Overcast/1.0 Podcast Sync (123 subscribers; feed-id=456789; +http://overcast.fm/`
-
 <i class="far fa-lightbulb"></i> Your app may have different methods of downloading audio - from an auto-download that your app performs on a schedule, to a listener-initiated download ("a stream") that grabs audio for someone to listen to when they press play. Ensure that each of these methods has a correct user-agent.
 
 <i class="far fa-lightbulb"></i> You can hear your audio user-agent being read back to you in season 1, episode 1, of the PodClock podcast app testing feed at https://podnews.net/clock-rss which is also in all major podcast directories. This episode will also display your RSS crawler's useragent in the item description.
