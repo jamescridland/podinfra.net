@@ -5,6 +5,8 @@ authors: jamescridland
 
 ## Ensure your RSS crawler is identifiable
 
+It is important to indicate to a server where its traffic is coming from. It helps podcast hosting companies understand who is consuming their RSS feeds, and can also help podcasters know where their podcast is being consumed.
+
 * If you run a central RSS crawler, please **ensure this is identified [with a user-agent](/app-developers/user-agents.html).**
 
 ## Consider...
