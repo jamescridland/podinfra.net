@@ -9,6 +9,8 @@ It is important to indicate to a server where its traffic is coming from. It hel
 
 * If you run a central RSS crawler, please **ensure this is identified [with a user-agent](/app-developers/user-agents.html).**
 
+Here's [how to set it in Go](https://stackoverflow.com/questions/13263492/set-useragent-in-http-request)
+
 ## Consider...
 
 * Consider reporting back subscriber counts, like [this example from Overcast](https://overcast.fm/podcasterinfo):
