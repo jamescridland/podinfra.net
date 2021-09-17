@@ -18,8 +18,8 @@ This website is guided by **independence, pragmatism and minimalism**. Minimum f
 ### For podcast app developers
 {% include_relative app-developers/section-index.md %}
 
-### For podcast hosts
-(to come)
+### For podcast hosting companies
+{% include_relative podcast-hosting-companies/section-index.md %}
 
 ### For podcast publishers
 (to come)
