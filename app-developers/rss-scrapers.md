@@ -3,7 +3,11 @@ title: RSS scrapers
 authors: jamescridland
 ---
 
+## Ensure your RSS crawler is identifiable
+
 * If you run a central RSS crawler, please **ensure this is identified [with a user-agent](/app-developers/user-agents.html).**
+
+## Consider...
 
 * Consider reporting back subscriber counts, like [this example from Overcast](https://overcast.fm/podcasterinfo):
 
