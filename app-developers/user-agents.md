@@ -23,4 +23,11 @@ It should include:
 
 <i class="far fa-lightbulb"></i> You can hear your audio user-agent being read back to you in season 1, episode 1, of the PodClock podcast app testing feed at https://podnews.net/clock-rss which is also in all major podcast directories. This episode will also display your RSS crawler's useragent in the item description.
 
-There are some circumstances where you are unable to change the user agent: whether using the `AppleCoreMedia` library or on browser-based services. In these circumstances, consider adding a clear player identification slug in an additional value to the audio URL request, in the form: `_from=com.example.mypodcastapp` - a consistent reverse-URI identifier for your app. Some podcast analytics companies may use this to identify your app.
+## Settings for commonly-used libraries
+
+* If you use `axios` to fetch files, [you should use the 'headers' option](https://masteringjs.io/tutorials/axios/user-agent).
+
+## Can't change it?
+
+There are some circumstances where you are unable to change the user agent: whether using the `AppleCoreMedia` library or on browser-based services. In these circumstances, consider adding a clear player identification slug in an additional value to the audio URL request, in the form: `_from=com.example.mypodcastapp` - a consistent reverse-URI identifier for your app. Some podcast analytics companies may use this to identify your app. Your app may already have [an identification slug in this Github repository](https://github.com/opawg/podcast-rss-useragents).
+
