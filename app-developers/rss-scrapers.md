@@ -15,7 +15,7 @@ A best-practice user-agent for your RSS scraper would be something like:
 
 `MyAppNameCrawler/1.2 +http://mypodcastapp.example.com`
 
-## Use the etag, the best practice for caching
+## Use etag for caching
 
 When you retrieve an RSS feed, store the [etag header value](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) in your database. The etag header value changes when the content changes.
 
