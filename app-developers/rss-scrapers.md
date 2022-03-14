@@ -15,6 +15,14 @@ A best-practice user-agent for your RSS scraper would be something like:
 
 `MyAppNameCrawler/1.2 +http://mypodcastapp.example.com`
 
+## Use the etag, the best practice for caching
+
+When you retrieve an RSS feed, store the [etag header value](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) in your database. The etag header value changes when the content changes.
+
+When polling it, send the etag value back [as an `If-None-Match` header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match).
+* If there's new content in the RSS feed, you'll get the full RSS feed back for you to parse and ingest (along with a new etag).
+* If there is NO new content in the RSS feed, you'll just get a `304: Not Modified` back. No need to parse or ingest anything.
+
 ## Consider...
 
 * Consider reporting back subscriber counts, like [this example from Overcast](https://overcast.fm/podcasterinfo):
