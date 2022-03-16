@@ -9,7 +9,7 @@ It is important to indicate to a server where its traffic is coming from. It hel
 
 * If you run a central RSS crawler, please **ensure this is identified [with a user-agent](/app-developers/user-agents.html).** This is normally one line of code, and a minor change, but makes all the difference to podcasters.
 
-Here's [how to set it in Go](https://stackoverflow.com/questions/13263492/set-useragent-in-http-request), and in [Python's feedparser module](https://pythonhosted.org/feedparser/http-useragent.html), and in [the Axios library](https://github.com/axios/axios/issues/2560#issuecomment-555778304).
+Here's [how to set it in Go](https://stackoverflow.com/questions/13263492/set-useragent-in-http-request), in [Python's feedparser module](https://pythonhosted.org/feedparser/http-useragent.html), using [Python feed requests](https://stackoverflow.com/questions/10606133/sending-user-agent-using-requests-library-in-python), and in [the Axios library](https://github.com/axios/axios/issues/2560#issuecomment-555778304).
 
 A best-practice user-agent for your RSS scraper would be something like:
 
