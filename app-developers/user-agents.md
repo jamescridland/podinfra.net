@@ -26,6 +26,7 @@ It should include:
 ## Settings for commonly-used libraries
 
 * If you use `axios` to fetch files, [you should use the 'headers' option](https://masteringjs.io/tutorials/axios/user-agent).
+* If youre using `react-native`, then [here's something that should help](https://stackoverflow.com/questions/36590207/set-user-agent-with-webview-with-react-native) for both Android and iOS.
 
 ## Can't change it?
 
