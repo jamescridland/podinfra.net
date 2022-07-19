@@ -28,7 +28,10 @@ It should include:
 * If you use `axios` to fetch files, [you should use the 'headers' option](https://masteringjs.io/tutorials/axios/user-agent).
 * If youre using `react-native`, then [here's something that should help](https://stackoverflow.com/questions/36590207/set-user-agent-with-webview-with-react-native) for both Android and iOS.
 
+## Using AppleCoreMedia? Here's how to change it
+
+If you use the `AppleCoreMedia` library to stream files, historically this has sent an opaque user agent that has been unable to be changed. With with iOS 16, you can [set the user agent correctly using the `AVURLAssetHTTPUserAgentKey`](https://developer.apple.com/documentation/avfoundation/avurlassethttpuseragentkey). Please do so: AppleCoreMedia user agents give creators no clue about how big your podcast app is and whether they should be promoting your app more.
+
 ## Can't change it?
 
-There are some circumstances where you are unable to change the user agent: whether using the `AppleCoreMedia` library or on browser-based services. In these circumstances, consider adding a clear player identification slug in an additional value to the audio URL request, in the form: `_from=com.example.mypodcastapp` - a consistent reverse-URI identifier for your app. Some podcast analytics companies may use this to identify your app. Your app may already have [an identification slug in this Github repository](https://github.com/opawg/podcast-rss-useragents).
-
+There are some circumstances where you are unable to change the user agent, particularly on browser-based services. In these circumstances, consider adding a clear player identification slug in an additional GET parameter to the audio URL request, in the form: `_from=com.example.mypodcastapp` - a consistent reverse-URI identifier for your app. Some podcast analytics companies may use this to identify your app. Your app may already have [an identification slug in this Github repository](https://github.com/opawg/podcast-rss-useragents).
