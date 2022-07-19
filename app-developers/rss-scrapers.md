@@ -7,7 +7,7 @@ authors: jamescridland
 
 It is important to indicate to a server where its traffic is coming from. It helps podcast hosting companies understand who is consuming their RSS feeds, and can also help podcasters know where their podcast is being consumed.
 
-You can **see your current scraper's user agent** by looking at the episode notes in Season 1, Episode 1 of the PodClock podcast, which is a podcast testing feed. Here's the [RSS feed](https://podnews.net/clock-rss), though it's in all the normal directories.
+You can **see your current scraper's user agent** by looking at the episode notes in Season 1, Episode 1 of the **PodClock** podcast, which is a podcast testing feed. Here's the [RSS feed](https://podnews.net/clock-rss), though it's in all the normal directories.
 
 * If you run a central RSS crawler, please **ensure this is identified [with a user-agent](/app-developers/user-agents.html).** This is normally one line of code, and a minor change, but makes all the difference to podcasters.
 
