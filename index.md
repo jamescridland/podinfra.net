@@ -22,7 +22,7 @@ This website is guided by **independence, pragmatism and minimalism**. Minimum f
 {% include_relative podcast-hosting-companies/section-index.md %}
 
 ### For podcast publishers
-(to come)
+{% include_relative publishers/section-index.md %}
 
 ### Feedback
 You can give feedback by either [opening an 'issue'](https://github.com/jamescridland/podinfra.net/issues) or by submitting a pull request with an edit.
