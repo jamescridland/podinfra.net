@@ -1,1 +1,1 @@
-* [For publishers](/publishers/index.md)
+* [For publishers](/publishers/index.html)
